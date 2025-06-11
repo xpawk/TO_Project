@@ -20,7 +20,6 @@ def main():
     while True:
         command = input("Enter command: ")
         controller.process_user_input(command)
-        building.step()
 
 
 if __name__ == "__main__":
